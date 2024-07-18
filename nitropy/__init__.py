@@ -1,0 +1,1 @@
+from .nitropy import setWindowSize
