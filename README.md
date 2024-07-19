@@ -25,7 +25,9 @@ This should install the needed files.
 ### Step 3
 Run the following command to clean up the folders and move the to the nitropy_lib_build folder: (adjust to your domain)
 ```shell
-mv C:\Users\yourname\Desktop\nitropy_lib\build C:\Users\yourname\Desktop\nitropy_lib\dist C:\Users\yourname\Desktop\nitropy_lib\nitropy_lib.egg-info C:\Users\yourname\Desktop\nitropy_lib\nitropy_lib_build
+Move-Item -Path "build" -Destination "nitropy_lib_build/"
+Move-Item -Path "dist" -Destination "nitropy_lib_build/"
+Move-Item -Path "nitropy.egg-info" -Destination "nitropy_lib_build/"
 ```
 this should move all the build folders to the nitropy_lib_build folder to clean up.
 ### Step 4
@@ -45,7 +47,22 @@ python setup.py sdist bdist_wheel
 This should reinstall the needed files.
 After this run the following command to clean the build files up and move them to nitropy_lib_build
 ```shell
-mv C:\Users\yourname\Desktop\nitropy_lib\build C:\Users\yourname\Desktop\nitropy_lib\dist C:\Users\yourname\Desktop\nitropy_lib\nitropy_lib.egg-info C:\Users\yourname\Desktop\nitropy_lib\nitropy_lib_build
+if (Test-Path -Path "nitropy_lib_build/build") {
+    Remove-Item -Recurse -Force "nitropy_lib_build/build"
+}
+
+if (Test-Path -Path "nitropy_lib_build/dist") {
+    Remove-Item -Recurse -Force "nitropy_lib_build/dist"
+}
+
+if (Test-Path -Path "nitropy_lib_build/nitropy.egg-info") {
+    Remove-Item -Recurse -Force "nitropy_lib_build/nitropy_lib.egg-info"
+}
+
+Move-Item -Path "build" -Destination "nitropy_lib_build/"
+Move-Item -Path "dist" -Destination "nitropy_lib_build/"
+Move-Item -Path "nitropy_lib.egg-info" -Destination "nitropy_lib_build/"
+
 ```
 ### Step 2
 Run the following command to uninstall nitropy:
