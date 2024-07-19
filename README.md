@@ -21,3 +21,15 @@ mv C:\Users\corne\OneDrive\Desktop\nitropy_lib\build C:\Users\corne\OneDrive\Des
 pip install nitropy_lib_build/dist/nitropy_lib-0.1-py3-none-any.whl
 
 *after doing this you're done and can start programming with nitropy!*
+
+**for updating the library run the following commands:**
+
+python setup.py sdist bdist_wheel
+
+mv C:\Users\corne\OneDrive\Desktop\nitropy_lib\build C:\Users\corne\OneDrive\Desktop\nitropy_lib\dist C:\Users\corne\OneDrive\Desktop\nitropy_lib\nitropy_lib.egg-info C:\Users\corne\OneDrive\Desktop\nitropy_lib\nitropy_lib_build
+
+pip uninstall nitropy
+
+pip install nitropy_lib_build/dist/nitropy-0.1-py3-none-any.wh
+
+after this you done updating!
