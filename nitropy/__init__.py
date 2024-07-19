@@ -1,1 +1,1 @@
-from .nitropy_functions import setWindowSize
+from .nitropy_window_functions import setWindowSize, setWindowTitle
