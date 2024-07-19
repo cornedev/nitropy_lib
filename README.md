@@ -56,7 +56,7 @@ if (Test-Path -Path "nitropy_lib_build/dist") {
     Remove-Item -Recurse -Force "nitropy_lib_build/dist"
 }
 
-if (Test-Path -Path "nitropy_lib_build/nitropy.egg-info") {
+if (Test-Path -Path "nitropy_lib_build/nitropy_lib.egg-info") {
     Remove-Item -Recurse -Force "nitropy_lib_build/nitropy_lib.egg-info"
 }
 
