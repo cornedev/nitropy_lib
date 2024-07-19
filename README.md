@@ -2,6 +2,7 @@ nitropy installation guide
 -created by corne louwerse, 2024
 
 setup:
+
 run the following command to build the library:
 
 python setup.py build --build-lib nitropy_lib_build
