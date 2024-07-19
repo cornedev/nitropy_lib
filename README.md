@@ -76,7 +76,7 @@ if this gives a warning just proceed with the next command and if that completes
 
 After this run the following command to reinstall nitropy again:
 ```shell
-pip install nitropy_lib_build\dist\nitropy_lib-0.2-py3-none-any.whl
+pip install nitropy_lib_build\dist\nitropy_lib-0.3-py3-none-any.whl
 
 
 ```
