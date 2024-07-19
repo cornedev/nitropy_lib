@@ -1,20 +1,20 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='nitropy',
-    version='1.0',
+    name='nitropy_lib',
+    version='0.1',
     packages=find_packages(),
     install_requires=[
         'pygame',
     ],
-    description='a simple game development library for Python.',
+    description='a simple game development library for Python',
     author='cornedev',
-    author_email='corneproductions@gmail.com',
-    url='https://github.com/cornedev/nitropy_lib',  # replace with your actual repo URL
+    author_email='cornelouwerse@gmail.com',
+    url='https://github.com/cornedev/nitropy_lib',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6',
+    python_requires= '>=3.6',
 )
