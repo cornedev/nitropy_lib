@@ -8,3 +8,7 @@ def setWindowSize(width, height):
 
 def setWindowTitle(title):
     pygame.display.set_caption(title)
+
+def setWindowColor(screen, r, g, b):
+    screen.fill((r, g, b))
+    pygame.display.flip()
