@@ -1,6 +1,8 @@
 **nitropy a great game development libary for Python**
 *in development by cornedev*
 
+
+
 **nitropy setup guide:**
 
 setup:
@@ -21,6 +23,8 @@ run the following command to install all packages:
 pip install nitropy_lib_build/dist/nitropy_lib-0.1-py3-none-any.whl
 
 after doing this you're done and can start programming with nitropy!
+
+
 
 **for updating the library run the following commands:**
 
