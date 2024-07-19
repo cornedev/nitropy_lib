@@ -66,15 +66,8 @@ Move-Item -Path "nitropy_lib.egg-info" -Destination "nitropy_lib_build/"
 
 ```
 ### Step 2
-Run the following command to uninstall nitropy:
-```shell
-pip uninstall nitropy
+Run the following command to reinstall nitropy:
 
-
-```
-if this gives a warning just proceed with the next command and if that completes succesfully you should be good.
-
-After this run the following command to reinstall nitropy again:
 ```shell
 pip install nitropy_lib_build\dist\nitropy_lib-0.3-py3-none-any.whl
 
