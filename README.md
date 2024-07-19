@@ -45,6 +45,7 @@ python setup.py sdist bdist_wheel
 
 ```
 This should reinstall the needed files.
+
 After this run the following command to clean the build files up and move them to nitropy_lib_build
 ```shell
 if (Test-Path -Path "nitropy_lib_build/build") {
