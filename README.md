@@ -1,7 +1,7 @@
 **nitropy a great game development libary for Python**
 *in development by cornedev*
 
-**nitropy setup guide**
+**nitropy setup guide:**
 
 **setup:**
 **run the following command to build the library:**
