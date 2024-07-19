@@ -1,7 +1,7 @@
 import pygame
 
-def setWindowSize(x, y):
+def setWindowSize(width, height):
     pygame.init()
-    screen = pygame.display.set_mode((x, y))
-    pygame.display.set_caption("nitropy game window")
+    screen = pygame.display.set_mode((width, height))
+    pygame.display.set_caption('nitropy game window')
     return screen
