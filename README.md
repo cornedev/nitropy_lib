@@ -74,7 +74,7 @@ pip uninstall nitropy
 ```
 After this run the following command to reinstall nitropy again:
 ```shell
-pip install nitropy_lib_build/dist/nitropy-0.1-py3-none-any.wh
+pip install nitropy_lib_build\dist\nitropy_lib-0.1-py3-none-any.whl
 
 
 ```
