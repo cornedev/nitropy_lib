@@ -3,6 +3,7 @@
 ### Features
 - custom window resolution
 - custom window title
+- custom window color
 - more coming soon.
 
 ### Needs
