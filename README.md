@@ -1,4 +1,4 @@
-## nitropy, a simple library creating base for python.
+,## nitropy, a simple library creating base for python.
 
 ### Features
 - code your own for your very own Python library :)
@@ -44,6 +44,7 @@ in setup.py change the version to a higher one. for example 0.3 to 0.4. this is 
 to:
 ```setup.py
     version='0.4',
+
 ### Step 1
 Run the following command:
 ```shell
