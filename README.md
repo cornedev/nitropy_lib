@@ -37,7 +37,13 @@ after this you are done and you can try programming some games with nitropy. exa
 ## How to update the library
 
 ### Before
-in setup.py change the version to a higher one. for example 0.3 to 0.4. this is needed for updating.
+in setup.py change the version to a higher one. for example 0.3 to 0.4. this is needed for updating. so for example:
+```setup.py
+    version='0.3',
+```
+to:
+```setup.py
+    version='0.4',
 ### Step 1
 Run the following command:
 ```shell
