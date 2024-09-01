@@ -34,7 +34,7 @@ Run the following command to install all packages:
 pip install nitropy_lib_build/dist/nitropy_lib-0.1-py3-none-any.whl
 ```
 after this you are done and you can try programming some games with nitropy. examples can be found in the releases tab.
-## How to update the library
+## How to update your library
 
 ### Before
 in setup.py change the version to a higher one. for example 0.3 to 0.4. this is needed for updating. so for example:
