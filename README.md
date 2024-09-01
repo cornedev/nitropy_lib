@@ -1,4 +1,4 @@
-## nitropy a simple game development libary for Python.
+## nitropy, a simple library creating base for python.
 
 ### Features
 - custom window resolution
