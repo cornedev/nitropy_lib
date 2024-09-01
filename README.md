@@ -1,10 +1,7 @@
 ## nitropy, a simple library creating base for python.
 
 ### Features
-- custom window resolution
-- custom window title
-- custom window color
-- more coming soon.
+- code your own for your very own Python library :)
 
 ### Needs
 - Python 3.6 or higher
