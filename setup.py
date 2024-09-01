@@ -7,9 +7,9 @@ setup(
     install_requires=[
         'pygame',
     ],
-    description='a simple game development library for Python',
-    author='cornedev',
-    author_email='cornelouwerse@gmail.com',
+    description='a simple library base for Python',
+    author='yourname',
+    author_email='youremail',
     url='https://github.com/cornedev/nitropy_lib',
     classifiers=[
         'Programming Language :: Python :: 3',
