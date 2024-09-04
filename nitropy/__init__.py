@@ -1,2 +1,2 @@
-from .nitropy_window_functions import setWindowSize, setWindowTitle, setWindowColor
+from .nitropy_functions_example import setWindowSize, setWindowTitle, setWindowColor
 #import your functions here
