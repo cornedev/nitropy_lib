@@ -1,16 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='nitropy_lib',
+    name='yourlibraryname',
     version='0.3',
     packages=find_packages(),
     install_requires=[
         'pygame',
     ],
+    #change the install_requires based on the librarys needed for your library.
     description='a simple library base for Python',
     author='yourname',
     author_email='youremail',
     url='https://github.com/cornedev/nitropy_lib',
+    #replace this with your repository for your library.
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
