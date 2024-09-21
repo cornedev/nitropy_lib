@@ -1,4 +1,4 @@
-,## nitropy, a simple library creating base for python.
+## nitropy, a simple library creating base for python.
 
 ### Features
 - code your own for your very own Python library :)
