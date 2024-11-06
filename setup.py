@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yourlibraryname',
-    version='0.3',
+    version='0.3', #edit this when updating your library
     packages=find_packages(),
     install_requires=[
         'pygame',
